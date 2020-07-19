@@ -1,0 +1,40 @@
+.moviesRow {
+    margin-left: 2rem;
+}
+
+.moviesRow__title {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    color: #fff;
+}
+
+.moviesRow__slider {
+    display: flex;
+    overflow-x: scroll;
+    padding: 2rem;
+}
+
+.moviesRow__slider::-webkit-scrollbar {
+    display: none;
+}
+
+.moviesRow__poster {
+    width: 100%;
+    object-fit: contain;
+    margin-right: 1.4rem;
+    max-height: 25rem;
+    transition: transform .4s;
+    cursor: pointer;
+}
+
+.moviesRow__poster--sm {
+    max-height: 10rem;
+}
+
+.moviesRow__poster:hover {
+    transform: scale(1.1);
+}
+
+.moviesRow__poster--sm:hover {
+    transform: scale(1.08);
+}

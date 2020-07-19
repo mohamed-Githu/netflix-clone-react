@@ -1,0 +1,28 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.7rem 2.5rem;
+    z-index: 1;
+    background-color: transparent;
+
+    transition: background-color .2s ease-in;
+}
+
+.navbar--blank {
+    background-color: #111;
+}
+
+.navbar__logo {
+    object-fit: contain;
+    width: 8rem;
+}
+
+.navbar__avatar {
+    object-fit: contain;
+    width: 3rem;
+    border-radius: 5px;
+}
