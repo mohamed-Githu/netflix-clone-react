@@ -1,3 +1,11 @@
+A website that simulate the frontend page for netflix. The data was is pulled from an api called TMDB.
+
+Other technologies:
+- flex-box
+- react youtube for trailers
+
+LIVE DEMONE: https://netflix-clone-react.netlify.app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
