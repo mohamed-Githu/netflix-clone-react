@@ -21,8 +21,6 @@ const MoviesRow = ({ title, fetchUrl, isLarge }) => {
     // eslint-disable-next-line
   }, []);
 
-  console.log(fetchUrl);
-
   const handleClick = (movie) => {
     if (trailerUrl) {
       setTrailerUrl("");
